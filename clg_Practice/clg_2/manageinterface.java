@@ -1,3 +1,4 @@
+package clg_2;
 interface mobile{
     int voltage(int v);
     String modeln(String m);

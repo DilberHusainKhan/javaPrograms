@@ -29,11 +29,11 @@ public class ConverArrayToLL {
     public static void printAllNode(Node head){
         Node temp = head;
         System.out.print("Data");
-        do{
+        while (temp!=null){
             System.out.print("-->"+temp.data);
             temp=temp.next;
-        }while (temp.next!=null);
-        System.out.print("-->"+temp.data);
+        }
+        // System.out.print("-->"+temp.data);
     }
     public static void main(String[] args) {
         int [] arr={1,2,3,4,5,6};
